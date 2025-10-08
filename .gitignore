@@ -1,0 +1,67 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+htmlcov/
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.tar
+*.gz
+*.tgz
+*.bak
+docker-compose.override.yml
+
+# Data / output files
+data/
+*.xlsx
+*.csv
+
+# Environment variables / secrets
+.env
+*.env
+secrets.json
+
+# Temporary files
+tmp/
+*.tmp
+*.log

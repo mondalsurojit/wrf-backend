@@ -1,0 +1,10 @@
+django
+djangorestframework
+requests
+django-cors-headers
+netCDF4
+numpy
+pandas
+scikit-image
+celery
+redis
