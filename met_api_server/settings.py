@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-zwmwy!s-j$_n@@uvgo-_f8wuvkhjg7%sflpw#r$x9&6d=#*f(-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "::1", "extraordinary-civilization-praise-bat.trycloudflare.com",]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "::1", "referenced-screenshots-opinion-shed.trycloudflare.com",]
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True

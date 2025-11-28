@@ -126,7 +126,7 @@ AND THIS IS STORED CITY DATA IN DATA/ZWS2.JSON ALONG WITH STATIONS, IN THE FRONT
 ###### Terminal 3: celery -A met_api_server beat -l info    
 ###### Terminal 4: python manage.py runserver OR waitress-serve --host=0.0.0.0 --port=8000 met_api_server.wsgi:application        
 
-###### cloudflared tunnel --url http://localhost:8000
+###### cloudflared tunnel --url http://localhost:8000 --protocol http2
 
 
 ### Using Docker:
